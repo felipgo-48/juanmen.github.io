@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salvemos el Planeta</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR MEJORADO -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-leaf eco-icon"></i>
+        EcoMundo
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio"><i class="fas fa-home"></i> Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conciencia"><i class="fas fa-lightbulb"></i> Conciencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accion"><i class="fas fa-hands-helping"></i> Acción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto"><i class="fas fa-envelope"></i> Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- INTRODUCCIÓN SOBRE LA IMPORTANCIA DEL MEDIO AMBIENTE -->
+  <section class="intro-section" id="inicio">
+    <div class="container">
+      <div class="intro-content text-center fade-in-up">
+        <h1 class="intro-title">
+          <i class="fas fa-globe-americas"></i>
+          Nuestro Planeta, Nuestro Futuro
+        </h1>
+        <div class="intro-text">
+          <p class="mb-4">
+            El medio ambiente es el hogar que compartimos con millones de especies y las futuras generaciones. 
+            Cada respiración que tomamos, cada gota de agua que bebemos y cada alimento que consumimos 
+            depende directamente de la salud de nuestros ecosistemas.
+          </p>
+          <p class="mb-4">
+            Hoy más que nunca, enfrentamos desafíos ambientales sin precedentes: el cambio climático, 
+            la pérdida de biodiversidad, la contaminación del aire y agua, y la degradación de nuestros 
+            recursos naturales. Pero también tenemos una oportunidad única: actuar juntos para crear 
+            un futuro sostenible.
+          </p>
+          <p>
+            <strong>La Tierra no es una herencia de nuestros padres, sino un préstamo de nuestros hijos.</strong> 
+            Es momento de proteger lo que más amamos y construir un mundo donde la naturaleza y la humanidad 
+            prosperen en armonía.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARRUSEL AUTOMÁTICO SIN FLECHAS -->
+  <div id="carouselMedioAmbiente" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselMedioAmbiente" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselMedioAmbiente" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselMedioAmbiente" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="naturaleza.jpg"" class="d-block w-100" alt="Bosque">
+        <div class="carousel-caption">
+          <h5><i class="fas fa-tree"></i> Protejamos Nuestros Bosques</h5>
+          <p>Los bosques son los pulmones de la Tierra. Cada árbol cuenta, cada bosque importa para nuestro futuro.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="oceano.jpg" class="d-block w-100" alt="Océano">
+        <div class="carousel-caption">
+          <h5><i class="fas fa-water"></i> Océanos Limpios, Vida Sana</h5>
+          <p>Nuestros océanos necesitan protección. La vida marina es esencial para el equilibrio del planeta.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Reciclaje.jpg" class="d-block w-100" alt="Energía renovable">
+        <div class="carousel-caption">
+          <h5><i class="fas fa-solar-panel"></i> Energía Limpia, Futuro Brillante</h5>
+          <p>La transición hacia energías renovables es clave para combatir el cambio climático.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARATIVA MEJORADA -->
+  <section class="content-section" id="conciencia">
+    <div class="container">
+      <h2 class="section-title">
+        <i class="fas fa-balance-scale"></i>
+        El Contraste de Nuestro Tiempo
+      </h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card p-4 fade-in-up">
+            <h4><i class="fas fa-seedling text-success"></i> Un Pasado Más Verde</h4>
+            <p>
+              Décadas atrás, nuestro planeta gozaba de ríos cristalinos que serpentaban por paisajes vírgenes, 
+              bosques densos que albergaban una biodiversidad próspera, y comunidades que vivían en perfecta 
+              armonía con la naturaleza. El aire era puro, los ecosistemas estaban equilibrados, y la Tierra 
+              tenía una capacidad natural extraordinaria para regenerarse.
+            </p>
+            <img src="montana.jpg" class="img-fluid rounded" alt="Naturaleza prístina">
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card p-4 fade-in-up">
+            <h4><i class="fas fa-exclamation-triangle text-warning"></i> Los Desafíos Actuales</h4>
+            <p>
+              Hoy enfrentamos una realidad compleja: contaminación atmosférica que afecta millones de vidas, 
+              océanos llenos de plásticos, deforestación masiva y un cambio climático acelerado. La pérdida 
+              de biodiversidad ocurre a un ritmo alarmante, y muchos ecosistemas luchan por sobrevivir. 
+              Sin embargo, esta crisis también representa nuestra mayor oportunidad de transformación.
+            </p>
+            <img src="contaminacion.jpg" class="img-fluid rounded" alt="Desafíos ambientales">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER COMPLETO Y TEMÁTICO -->
+  <footer id="contacto">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h5><i class="fas fa-leaf"></i> EcoMundo</h5>
+          <p>
+            Comprometidos con la protección y conservación de nuestro planeta. 
+            Juntos podemos construir un futuro más sostenible y esperanzador 
+            para las próximas generaciones.
+          </p>
+          <div class="social-links">
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h5><i class="fas fa-hands-helping"></i> Cómo Ayudar</h5>
+          <p><a href="#">Programa de Reforestación</a></p>
+          <p><a href="#">Limpieza de Océanos</a></p>
+          <p><a href="#">Educación Ambiental</a></p>
+          <p><a href="#">Voluntariado Ecológico</a></p>
+          <p><a href="#">Adopta un Árbol</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h5><i class="fas fa-lightbulb"></i> Recursos</h5>
+          <p><a href="#">Guías de Reciclaje</a></p>
+          <p><a href="#">Tips Eco-friendly</a></p>
+          <p><a href="#">Calculadora de CO₂</a></p>
+          <p><a href="#">Blog Ambiental</a></p>
+          <p><a href="#">Noticias Verdes</a></p>
+        </div>
+        
+        <div class="footer-section">
+          <h5><i class="fas fa-envelope"></i> Contacto</h5>
+          <p><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</p>
+          <p><i class="fas fa-phone"></i> +57 (1) 123-4567</p>
+          <p><i class="fas fa-envelope"></i> info@ecomundo.org</p>
+          <p><i class="fas fa-clock"></i> Lun - Vie: 8:00 AM - 6:00 PM</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 EcoMundo - Salvemos el Planeta. Todos los derechos reservados. 
+          <br>
+          <small>
+            <i class="fas fa-heart text-danger"></i> 
+            Hecho con amor por el planeta | 
+            <a href="#" class="text-light">Política de Privacidad</a> | 
+            <a href="#" class="text-light">Términos de Uso</a>
+          </small>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
